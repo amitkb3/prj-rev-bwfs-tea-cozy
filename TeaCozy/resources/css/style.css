@@ -1,0 +1,150 @@
+/* text centered horizontally is achieved by margin:auto;*/
+body {
+  font-family:Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content : center;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header .logo{
+  display: flex;
+  padding-left: 10px;
+  height: 50px;
+}
+
+
+header .nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.nav span {
+ display: inline-block;
+ padding: 20px 10px;
+}
+
+.mission {
+  display: flex;
+  justify-content : center;
+  flex-wrap: wrap;
+  padding-top:70px;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+ .mission h2 {
+  margin: auto;
+  padding: 10px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+ .mission h4 {
+  margin: auto;
+  padding: 10px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.featuredtea {
+  width: 1000px;
+  display: flex;
+  justify-content : center;
+  flex-wrap: wrap;
+}
+
+.featuredtea h2 {
+ margin: auto;
+ padding-top: 30px;
+ width: 100%;
+ text-align: center;
+}
+
+.featuredtea h4 {
+ margin: auto;
+ padding: 10px;
+ width: 100%;
+ text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  padding: 5px;
+}
+
+.product img {
+  height: 200px;
+  width: 300px;
+}
+
+.product span {
+  display: block;
+  padding: 5px;
+}
+
+.locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  }
+
+  .locations h2 {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+
+  }
+
+  .location h3 {
+    margin: 0;
+  }
+
+
+  .footer {
+    height: 200px;
+
+    }
+
+  .copyright {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+  }
